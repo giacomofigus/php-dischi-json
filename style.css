@@ -7,3 +7,15 @@ header{
     background-color: #0E161F;
     color: #28a156;
 }
+
+.bg-blue{
+    background-color: #0E161F;
+}
+
+.flex-basis-3{
+    flex-basis: calc(100% / 3 - 100px );
+}
+
+.gap-10{
+    gap: 100px;
+}

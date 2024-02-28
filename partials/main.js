@@ -4,7 +4,7 @@ createApp({
     data(){
         return{
             apiUrl: 'dischiSpotify.php',
-            arrayDischi : ''
+            arrayDischi : []
         }
     },
     mounted(){

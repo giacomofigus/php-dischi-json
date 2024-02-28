@@ -17,6 +17,26 @@
         <header class="d-flex align-items-center px-4">
             <h2>Spotify</h2>
         </header>
+
+        <main class="">
+            <div id="containerCard" class="d-flex flex-wrap pt-5 container justify-content-center gap-10 ">
+                <div
+                v-for="(element, index) in arrayDischi" :key="index"
+                class="text-white flex-basis-3 rounded bg-blue py-4" 
+                >   
+                    <div class="d-flex flex-column justify-content-center align-items-center gap-2 ">
+                        <img :src="element.poster" alt="" width="200">
+
+                        <span>{{ element.title }}</span>
+                        <span class="text-secondary">{{ element.author }}</span>
+                        <span>{{ element.year }}</span>
+
+                    </div>
+
+                </div>
+            </div>
+                
+        </main>
     </div>
 
 
